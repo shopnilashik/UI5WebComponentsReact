@@ -25,7 +25,13 @@ import { Main } from "./components/Main";
 import { ATable } from "./components/Table";
 import { BTable } from "./components/Table2";
 import "@ui5/webcomponents-fiori/dist/Bar.js";
-
+import "@ui5/webcomponents/dist/Assets.js";
+import "@ui5/webcomponents-fiori/dist/Assets.js";
+import { setTheme } from "@ui5/webcomponents-base/dist/config/Theme.js";
+setTheme("sap_fiori_3");
+// setTheme("sap_horizon_dark");
+// setTheme("sap_fiori_3_hcw");
+// setTheme("sap_fiori_3_hcw");
 function App() {
     return (
         <>
